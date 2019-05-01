@@ -1,6 +1,17 @@
 // IBook interface
 
-export interface IBook {}
+export interface IBook {
+  kind: string;
+  id: string;
+  volumeInfo: {
+    title: string;
+    subtitle: string;
+    authors: [string];
+    publisher: string;
+    publishedDate: string;
+    description: string;
+  };
+}
 
 // action types
 export const FETCH_BOOKS = "FETCH_BOOKS";

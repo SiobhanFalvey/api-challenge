@@ -1,0 +1,31 @@
+.myBooks {
+  height: 300px;
+  width: 200px;
+  border: solid;
+  margin: 20px;
+}
+
+.bookContainer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+
+  .bookContent {
+    height: 300px;
+    width: 200px;
+    border: solid;
+    padding: 15px;
+  }
+}
+
+.description {
+  padding: 10px;
+}
+
+.author {
+  padding: 10px;
+}
+
+.publication {
+  padding: 10px;
+}
